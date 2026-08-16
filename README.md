@@ -1,27 +1,13 @@
-# SUVIKSAN CyberSOS — Exact React Conversion
+# SUVIKSAN CyberSOS — React
 
-This is the React/Vite conversion of the supplied HTML.
+This version is based on the complete original React conversion and preserves the original HTML body, CSS, JavaScript, sections, case files, buttons, popups, forms, video section and content.
 
-The original body markup, CSS, and JavaScript are preserved. The original JavaScript is executed in the **global browser scope** after React mounts the page. This keeps the original inline `onclick` handlers and global functions working.
+Added only:
+1. English / हिन्दी language selector inside the existing landing popup.
+2. Clickable `cybercrime.gov.in` inside the SOS emergency popup.
 
-Examples that are preserved:
-- Language switcher
-- SOS button
-- Case/exhibit controls
-- Cyber popup tabs
-- FIR generator
-- Landing popup
-- Scroll progress / reveal interactions
-- Hero interactions
-- Any other original button handlers
-
-## Run
-
-```bash
+Run:
 npm install
 npm run dev
-```
 
-## Video
-
-If the original page uses the local awareness video, put the required MP4 asset in `public/` using the filename referenced by the original HTML.
+Put `cybersos-awareness-video.mp4` in `public/` if needed by the original video section.

@@ -3576,3 +3576,55 @@
     font-size:13px!important;
   }
 }
+
+
+/* ===== Added only: first-visit landing language picker + SOS portal link ===== */
+.suviksan-language-picker{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:6px;
+  margin-top:12px;
+  flex-wrap:wrap;
+}
+.suviksan-language-label{
+  margin-right:4px;
+  font-size:11px;
+  color:var(--ink-soft);
+  font-weight:600;
+}
+.suviksan-language-btn{
+  border:1px solid var(--line);
+  background:var(--paper-3);
+  color:var(--ink);
+  border-radius:999px;
+  padding:6px 11px;
+  cursor:pointer;
+  font-size:11px;
+  font-weight:700;
+}
+.suviksan-language-btn:hover,
+.suviksan-language-btn.active{
+  background:var(--gold);
+  color:#fff;
+  border-color:var(--gold);
+}
+.sos-cybercrime-link{
+  color:var(--alert)!important;
+  text-decoration:none!important;
+  font-weight:700;
+}
+.sos-cybercrime-link:hover{
+  text-decoration:underline!important;
+}
+
+
+/* Added only: clickable cybercrime.gov.in in Emergency contacts */
+.contact-portal-link{
+  color:inherit;
+  text-decoration:none;
+  font-weight:700;
+}
+.contact-portal-link:hover{
+  text-decoration:underline;
+}
