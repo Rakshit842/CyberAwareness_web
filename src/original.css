@@ -1,6 +1,6 @@
 
     :root {
-      /* ===== SUVIKSAN brand palette — pulled from the logo's blue + orange mark ===== */
+      /* ===== CyberMitra brand palette — pulled from the logo's blue + orange mark ===== */
       --paper: #F4F7FC;
       --paper-2: #E3EAF4;
       --paper-3: #EAF0F9;
@@ -1977,7 +1977,7 @@
   
 
 
-    .suviksan-landing {
+    .cybermitra-landing {
       position: fixed;
       inset: 0;
       z-index: 9999;
@@ -1990,11 +1990,11 @@
       backdrop-filter: blur(3px);
     }
 
-    .suviksan-landing.show {
+    .cybermitra-landing.show {
       display: flex
     }
 
-    .suviksan-landing-card {
+    .cybermitra-landing-card {
       position: relative;
       width: min(820px, 100%);
       box-sizing: border-box;
@@ -2003,10 +2003,10 @@
       background: #fff;
       color: #1B3A5C;
       box-shadow: 0 25px 70px rgba(0, 0, 0, .35);
-      animation: suviksanLandingIn .28s ease-out;
+      animation: cybermitraLandingIn .28s ease-out;
     }
 
-    @keyframes suviksanLandingIn {
+    @keyframes cybermitraLandingIn {
       from {
         opacity: 0;
         transform: translateY(14px) scale(.97)
@@ -2018,7 +2018,7 @@
       }
     }
 
-    .suviksan-landing-close {
+    .cybermitra-landing-close {
       position: absolute;
       top: 12px;
       right: 15px;
@@ -2030,14 +2030,14 @@
       cursor: pointer;
     }
 
-    .suviksan-landing-top {
+    .cybermitra-landing-top {
       display: flex;
       align-items: flex-start;
       gap: 15px;
       padding-right: 28px;
     }
 
-    .suviksan-landing-icon {
+    .cybermitra-landing-icon {
       width: 50px;
       height: 50px;
       flex: none;
@@ -2049,7 +2049,7 @@
       font-size: 23px;
     }
 
-    .suviksan-landing-kicker {
+    .cybermitra-landing-kicker {
       margin: 2px 0 7px;
       color: #E85D04;
       font-size: 10px;
@@ -2057,26 +2057,26 @@
       font-weight: 800;
     }
 
-    .suviksan-landing-top h2 {
+    .cybermitra-landing-top h2 {
       margin: 0 0 5px;
       color: #1B3A5C;
       font-size: 24px;
     }
 
-    .suviksan-landing-top p {
+    .cybermitra-landing-top p {
       margin: 0;
       color: #5B6B7D;
       font-size: 13px;
     }
 
-    .suviksan-landing-options {
+    .cybermitra-landing-options {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 16px;
       margin-top: 27px;
     }
 
-    .suviksan-option {
+    .cybermitra-option {
       display: flex;
       align-items: flex-start;
       gap: 13px;
@@ -2092,21 +2092,21 @@
       transition: transform .2s, box-shadow .2s, border-color .2s;
     }
 
-    .suviksan-option:hover {
+    .cybermitra-option:hover {
       transform: translateY(-4px);
       border-color: #FFB07A;
       box-shadow: 0 12px 28px rgba(30, 40, 50, .13);
     }
 
-    .suviksan-victim {
+    .cybermitra-victim {
       background: #FFE9DC
     }
 
-    .suviksan-learner {
+    .cybermitra-learner {
       background: #E7EFFB
     }
 
-    .suviksan-option-icon {
+    .cybermitra-option-icon {
       width: 43px;
       height: 43px;
       flex: none;
@@ -2118,13 +2118,13 @@
       font-size: 20px;
     }
 
-    .suviksan-option-body strong {
+    .cybermitra-option-body strong {
       display: block;
       font-size: 14px;
       line-height: 1.45;
     }
 
-    .suviksan-option-body small {
+    .cybermitra-option-body small {
       display: block;
       margin-top: 8px;
       color: #5B6B7D;
@@ -2132,14 +2132,14 @@
       line-height: 1.55;
     }
 
-    .suviksan-option-body b {
+    .cybermitra-option-body b {
       display: block;
       margin-top: 13px;
       color: #D9530B;
       font-size: 11px;
     }
 
-    .suviksan-landing-note {
+    .cybermitra-landing-note {
       margin-top: 17px;
       padding: 11px 14px;
       background: #FFE9DC;
@@ -2149,15 +2149,15 @@
     }
 
     @media(max-width:650px) {
-      .suviksan-landing-card {
+      .cybermitra-landing-card {
         padding: 22px
       }
 
-      .suviksan-landing-options {
+      .cybermitra-landing-options {
         grid-template-columns: 1fr
       }
 
-      .suviksan-option {
+      .cybermitra-option {
         min-height: auto
       }
     }
@@ -2737,32 +2737,32 @@
   
 
 
-    .cybersos-video-section {
+    .cybermitra-video-section {
       background: var(--navy);
       color: #E8F0FB;
     }
 
-    .cybersos-video-wrap {
+    .cybermitra-video-wrap {
       max-width: 900px;
       margin: 0 auto;
     }
 
-    .cybersos-video-section .section-head h2 {
+    .cybermitra-video-section .section-head h2 {
       color: #F5F9FF;
     }
 
-    .cybersos-video-section .section-head p {
+    .cybermitra-video-section .section-head p {
       color: #B7C8E0;
     }
 
-    .cybersos-video-card {
+    .cybermitra-video-card {
       background: #0f1b30;
       border: 1px solid rgba(255, 160, 92, .35);
       padding: 18px;
       box-shadow: var(--shadow);
     }
 
-    .cybersos-video {
+    .cybermitra-video {
       width: 100%;
       display: block;
       max-height: 560px;
@@ -2770,19 +2770,19 @@
       border-radius: 3px;
     }
 
-    .cybersos-video-caption {
+    .cybermitra-video-caption {
       padding: 14px 4px 2px;
       color: #B7C8E0;
       font-size: 13px;
     }
 
-    .cybersos-report-steps {
+    .cybermitra-report-steps {
       margin-top: 28px;
       display: grid;
       gap: 12px;
     }
 
-    .cybersos-step {
+    .cybermitra-step {
       display: grid;
       grid-template-columns: 42px 1fr;
       gap: 14px;
@@ -2793,7 +2793,7 @@
       border-left: 3px solid var(--gold);
     }
 
-    .cybersos-step-num {
+    .cybermitra-step-num {
       width: 34px;
       height: 34px;
       display: grid;
@@ -2805,18 +2805,18 @@
       font-weight: 700;
     }
 
-    .cybersos-step h4 {
+    .cybermitra-step h4 {
       margin: 0 0 4px;
       font-size: 16px;
     }
 
-    .cybersos-step p {
+    .cybermitra-step p {
       margin: 0;
       font-size: 14px;
       color: var(--ink-soft);
     }
 
-    .cybersos-report-note {
+    .cybermitra-report-note {
       margin-top: 18px;
       padding: 14px 16px;
       background: rgba(255, 160, 92, .12);
@@ -2825,7 +2825,7 @@
       font-size: 13.5px;
     }
 
-    .cybersos-report-link {
+    .cybermitra-report-link {
       display: inline-block;
       margin-top: 16px;
       padding: 11px 16px;
@@ -2837,12 +2837,12 @@
     }
 
     @media (max-width: 600px) {
-      .cybersos-step {
+      .cybermitra-step {
         grid-template-columns: 1fr;
         gap: 9px;
       }
 
-      .cybersos-video-card {
+      .cybermitra-video-card {
         padding: 10px;
       }
     }
@@ -2850,7 +2850,7 @@
 
 
     /* =========================================================
-       SUVIKSAN UI REFRESH — brand palette (logo blue + orange),
+       CyberMitra UI REFRESH — brand palette (logo blue + orange),
        Oswald headings to echo the logo mark, and scroll-reveal
        motion. Appended last so it wins the cascade cleanly.
        ========================================================= */
@@ -2884,7 +2884,7 @@
     }
 
     /* ---- scroll progress bar ---- */
-    #suviksan-scroll-progress {
+    #cybermitra-scroll-progress {
       position: fixed;
       top: 0;
       left: 0;
@@ -3003,7 +3003,7 @@
     .rule-card,
     .rl-card,
     .report-card,
-    .cybersos-step,
+    .cybermitra-step,
     .quick-action,
     .hero-float-card {
       transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
@@ -3240,7 +3240,7 @@
 
 .hero { isolation: isolate; }
 
-.cybersos-3d-hero {
+.cybermitra-3d-hero {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -3256,17 +3256,17 @@
   z-index: 2;
 }
 
-.hero > *:not(.cybersos-3d-hero) {
+.hero > *:not(.cybermitra-3d-hero) {
   position: relative;
   z-index: 2;
 }
 
 @media (max-width: 900px) {
-  .cybersos-3d-hero { opacity: .55; }
+  .cybermitra-3d-hero { opacity: .55; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .cybersos-3d-hero { opacity: .25; }
+  .cybermitra-3d-hero { opacity: .25; }
 }
 
 
@@ -3579,7 +3579,7 @@
 
 
 /* ===== Added only: first-visit landing language picker + SOS portal link ===== */
-.suviksan-language-picker{
+.cybermitra-language-picker{
   display:flex;
   align-items:center;
   justify-content:flex-end;
@@ -3587,13 +3587,13 @@
   margin-top:12px;
   flex-wrap:wrap;
 }
-.suviksan-language-label{
+.cybermitra-language-label{
   margin-right:4px;
   font-size:11px;
   color:var(--ink-soft);
   font-weight:600;
 }
-.suviksan-language-btn{
+.cybermitra-language-btn{
   border:1px solid var(--line);
   background:var(--paper-3);
   color:var(--ink);
@@ -3603,8 +3603,8 @@
   font-size:11px;
   font-weight:700;
 }
-.suviksan-language-btn:hover,
-.suviksan-language-btn.active{
+.cybermitra-language-btn:hover,
+.cybermitra-language-btn.active{
   background:var(--gold);
   color:#fff;
   border-color:var(--gold);
@@ -3627,4 +3627,312 @@
 }
 .contact-portal-link:hover{
   text-decoration:underline;
+}
+
+/* Added: CyberMitra About Us section */
+.cybermitra-about-section{padding:80px 7.5%;background:var(--paper-2,#eef3fa);border-top:1px solid var(--line,#d6deea)}
+.cybermitra-about-inner{max-width:1280px;margin:0 auto}
+.cybermitra-about-kicker{color:var(--alert,#e64a2e);font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;letter-spacing:.14em;margin-bottom:12px}
+.cybermitra-about-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:42px;align-items:start}
+.cybermitra-about-grid h2{margin:0 0 18px;color:var(--navy,#0b315b);font-family:"Oswald",sans-serif;font-size:clamp(34px,4vw,56px);line-height:1.05}
+.cybermitra-about-grid p{color:var(--ink-soft,#5b6b80);font-size:16px;line-height:1.75;max-width:720px}
+.cybermitra-about-card{background:#fff;border:1px solid var(--line,#d6deea);padding:28px;box-shadow:0 16px 35px rgba(18,49,84,.08)}
+.cybermitra-about-card h3{margin:0 0 16px;color:var(--navy,#0b315b);font-family:"Oswald",sans-serif;font-size:25px}
+.cybermitra-about-card ul{margin:0;padding:0;list-style:none}
+.cybermitra-about-card li{padding:11px 0 11px 24px;border-bottom:1px solid var(--line,#d6deea);color:var(--ink,#26374d);font-size:13px;line-height:1.5;position:relative}
+.cybermitra-about-card li:last-child{border-bottom:0}
+.cybermitra-about-card li:before{content:"✓";position:absolute;left:0;top:11px;color:var(--alert,#e64a2e);font-weight:700}
+.cybermitra-about-note{margin-top:28px;padding:18px 20px;border-left:3px solid var(--gold,#f28a08);background:rgba(242,138,8,.07);color:var(--ink,#26374d);font-size:14px;line-height:1.6}
+.contact-portal-link{color:inherit;text-decoration:none;font-weight:700}
+.contact-portal-link:hover{text-decoration:underline}
+@media(max-width:850px){.cybermitra-about-grid{grid-template-columns:1fr}.cybermitra-about-section{padding:65px 5%}}
+
+
+/* ===== Authentic landing popup visual treatment =====
+   Color-only / visual refinement. Existing layout and content are unchanged.
+*/
+.cybermitra-landing{
+  background:rgba(15,31,49,.72)!important;
+  backdrop-filter:blur(2px)!important;
+  -webkit-backdrop-filter:blur(2px)!important;
+}
+
+.cybermitra-landing-card{
+  background:#f8fafc!important;
+  color:#24364b!important;
+  border:1px solid #cbd5e1!important;
+  border-top:4px solid #0b315b!important;
+  border-radius:6px!important;
+  box-shadow:0 18px 45px rgba(15,31,49,.28)!important;
+}
+
+.cybermitra-landing-close{
+  color:#64748b!important;
+}
+
+.cybermitra-landing-icon{
+  background:#e8f0f8!important;
+  border:1px solid #b8c9da!important;
+  color:#0b315b!important;
+}
+
+.cybermitra-landing-kicker{
+  color:#c2412d!important;
+}
+
+.cybermitra-landing-top h2{
+  color:#0b315b!important;
+}
+
+.cybermitra-landing-top p{
+  color:#536579!important;
+}
+
+.cybermitra-landing-options .cybermitra-landing-option{
+  background:#ffffff!important;
+  border:1px solid #cbd5e1!important;
+  color:#24364b!important;
+  box-shadow:0 3px 10px rgba(15,31,49,.06)!important;
+}
+
+.cybermitra-landing-options .cybermitra-landing-option:hover{
+  background:#f1f6fa!important;
+  border-color:#8fa8bf!important;
+}
+
+.cybermitra-landing-note{
+  background:#edf3f8!important;
+  border-left:3px solid #0b315b!important;
+  color:#46586b!important;
+}
+
+.cybermitra-landing-card .cybermitra-language-picker{
+  background:#eef3f7!important;
+  border:1px solid #d3dde6!important;
+}
+
+.cybermitra-landing-card .cybermitra-language-label{
+  color:#46586b!important;
+}
+
+.cybermitra-landing-card .cybermitra-language-btn{
+  background:#fff!important;
+  color:#24364b!important;
+  border-color:#cbd5e1!important;
+}
+
+.cybermitra-landing-card .cybermitra-language-btn.active,
+.cybermitra-landing-card .cybermitra-language-btn:hover{
+  background:#0b315b!important;
+  color:#fff!important;
+  border-color:#0b315b!important;
+}
+
+/* ===== CyberMitra branding update =====
+   Branding/palette only. Existing content, sections and interactions are retained.
+*/
+:root{
+  --cybermitra-black:#071014;
+  --cybermitra-cream:#f3f0df;
+  --cybermitra-copper:#c88b57;
+  --cybermitra-copper-dark:#9f6438;
+}
+.cybermitra-brand-logo{
+  display:flex;
+  align-items:center;
+  max-width:260px;
+  min-width:150px;
+}
+.cybermitra-brand-logo img{
+  display:block;
+  width:100%;
+  max-width:260px;
+  height:auto;
+  object-fit:contain;
+}
+header .logo img,
+.navbar .logo img,
+.brand img,
+.site-logo img{
+  content:url("/cybermitra-sticker-logo.png");
+}
+
+
+/* CyberMitra palette is applied only to branding accents; original section backgrounds/layout remain unchanged. */
+
+footer a[href^="mailto:"]{color:var(--cybermitra-copper-dark,#9f6438);text-decoration:none;font-weight:600} footer a[href^="mailto:"]:hover{text-decoration:underline}
+
+/* Clean CyberMitra branding accents */
+:root{--cybermitra-black:#071014;--cybermitra-cream:#f3f0df;--cybermitra-copper:#c88b57;--cybermitra-copper-dark:#9f6438;}
+.topbar{background:#fff;}
+.brand img,.site-logo{content:url("/cybermitra-sticker-logo.png");}
+.cybermitra-brand-logo{display:none;}
+
+
+/* CyberMitra sticker logo and About Us navbar link */
+.cybermitra-sticker-logo{
+  display:block;
+  width:auto;
+  max-width:260px;
+  max-height:72px;
+  height:auto;
+  object-fit:contain;
+}
+.cybermitra-about-nav-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  color:inherit;
+  font:inherit;
+  cursor:pointer;
+}
+.cybermitra-about-nav-btn:hover{text-decoration:underline;}
+@media(max-width:760px){
+  .cybermitra-sticker-logo{max-width:210px;max-height:62px;}
+}
+
+
+/* ===== CyberMitra landing popup refinement ===== */
+.cybermitra-landing{
+  background:rgba(7,16,20,.70)!important;
+  backdrop-filter:blur(4px)!important;
+  -webkit-backdrop-filter:blur(4px)!important;
+}
+
+.cybermitra-landing-card{
+  background:#f6f2e7!important;
+  color:#071014!important;
+  border:1px solid #d9d0bd!important;
+  border-top:4px solid #071014!important;
+  border-radius:6px!important;
+  box-shadow:0 22px 55px rgba(7,16,20,.30)!important;
+  font-family:'IBM Plex Sans','IBM Plex Sans Devanagari',Arial,sans-serif!important;
+}
+
+.cybermitra-landing-card *{
+  font-family:inherit;
+}
+
+.cybermitra-landing-close{
+  color:#596572!important;
+  font-family:'IBM Plex Sans',Arial,sans-serif!important;
+  font-weight:400!important;
+}
+
+.cybermitra-landing-icon{
+  background:#e9e3d4!important;
+  border:1px solid #b9a98f!important;
+}
+
+.cybermitra-landing-kicker{
+  color:#a85d2f!important;
+  font-family:'IBM Plex Mono',monospace!important;
+  letter-spacing:1.2px!important;
+  font-weight:700!important;
+}
+
+.cybermitra-landing-top h2{
+  color:#071014!important;
+  font-family:'IBM Plex Sans','IBM Plex Sans Devanagari',Arial,sans-serif!important;
+  font-weight:700!important;
+}
+
+.cybermitra-landing-top p{
+  color:#53616c!important;
+}
+
+.cybermitra-landing-options{
+  gap:16px!important;
+}
+
+.cybermitra-option{
+  border-color:#d4c9b6!important;
+  color:#071014!important;
+  box-shadow:none!important;
+}
+
+.cybermitra-victim{
+  background:#f2e2d5!important;
+}
+
+.cybermitra-learner{
+  background:#e8ece7!important;
+}
+
+.cybermitra-option:hover{
+  border-color:#b77b4e!important;
+  box-shadow:0 10px 24px rgba(7,16,20,.10)!important;
+}
+
+.cybermitra-option-icon{
+  background:#eee9dc!important;
+  border-color:#b9a98f!important;
+}
+
+.cybermitra-option-body strong{
+  color:#071014!important;
+  font-family:'IBM Plex Sans','IBM Plex Sans Devanagari',Arial,sans-serif!important;
+}
+
+.cybermitra-option-body small{
+  color:#53616c!important;
+}
+
+.cybermitra-option-body b{
+  color:#a85d2f!important;
+}
+
+/* Remove the enclosing box around the language selector. */
+.cybermitra-language-picker{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:flex-start!important;
+  gap:8px!important;
+  margin-top:14px!important;
+  padding:0!important;
+  border:0!important;
+  background:transparent!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+
+.cybermitra-language-label{
+  margin-right:3px!important;
+  color:#53616c!important;
+  font-family:'IBM Plex Sans','IBM Plex Sans Devanagari',Arial,sans-serif!important;
+  font-size:12px!important;
+  font-weight:600!important;
+}
+
+.cybermitra-language-btn{
+  border:1px solid #b9c1c7!important;
+  background:transparent!important;
+  color:#27343d!important;
+  border-radius:999px!important;
+  padding:6px 13px!important;
+  font-family:'IBM Plex Sans','IBM Plex Sans Devanagari',Arial,sans-serif!important;
+  font-size:12px!important;
+  font-weight:600!important;
+  line-height:1!important;
+  box-shadow:none!important;
+}
+
+.cybermitra-language-btn:hover{
+  background:#ebe5d8!important;
+  color:#071014!important;
+  border-color:#a85d2f!important;
+}
+
+.cybermitra-language-btn.active{
+  background:#071014!important;
+  color:#f6f2e7!important;
+  border-color:#071014!important;
+}
+
+.cybermitra-landing-note{
+  background:#ebe5d8!important;
+  border-left:3px solid #a85d2f!important;
+  color:#46545e!important;
+  font-family:'IBM Plex Sans','IBM Plex Sans Devanagari',Arial,sans-serif!important;
 }
